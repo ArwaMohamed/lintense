@@ -1,0 +1,234 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*Section 1*/
+.btn{
+    background-color: #E75B4A;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    font-weight: 700;
+    padding: 0.875rem 2.1875rem;
+    font-size: 1rem;
+    line-height: 1.125;
+    
+}
+.active{
+    color:  #E75B4A;
+    
+}
+.nav-collection{
+   
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.nav-collection ul li .active{
+    color:  #E75B4A;
+    
+}
+.nav-collection ul li a{
+    color: #000;
+}
+header{
+    
+    position: fixed;
+    transition: 0.5s linear;
+    background-color: rgba(252, 252, 252, 0);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 30px;
+    
+}
+.sticky{
+    background-color: #fff;
+}
+.info h1{
+    font-size: 60px;
+}
+.info p{
+    width: 70%;
+    font-size: 20px;
+}
+/*Section 2*/
+.section2 h2{
+    font-size: 42px;
+    line-height: 1.5;
+}
+.section2 p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.card{
+    box-shadow:0px 6px 30px rgba(117, 117, 117, 0.15) !important;
+    padding: 50px 30px ;
+    border-radius: 0.9375rem;
+    transition: all 1s;
+    margin: 10px 10px;
+   
+}
+.card:hover{
+    transform: scale(0.9,0.9);
+}
+.card p{
+    
+    line-height: 1.5;
+    
+}
+.section-2{
+    background-color: rgba(255, 242, 235, 0.6);
+   
+}
+
+.mission-info span{
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 800;
+    color: #E75B4A;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+
+}
+.mission-info h3{
+    padding-top: 15px;
+    font-size: 50px;
+}
+/* End Section 2*/
+/*Section 3*/
+.section3 p{
+    font-size: 22px;
+}
+
+/* End Section 3*/
+/*Section 4*/
+.section4{
+    background-color: #E75B4A;
+    padding: 60px 50px;
+}
+.info-container h5,h3,p{
+padding: 10px 10px;
+}
+.counter{
+    font-size: 60px;
+}
+.sign{
+font-size: 60px;
+}
+/* End Section 4*/
+/* Section 5 */
+.card-body{
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    border-radius: 15px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 30px rgba(117, 117, 117, 0.15);
+}
+.card-info .link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+    text-decoration: none;
+    color: #000000;
+}
+.card-body:hover .link{
+    color: #E75B4A;
+}
+.section5-part2{
+    background-color: rgba(255, 242, 235, 0.6);;
+}
+.section5-part2 .card-body{
+    transition: all 1s;
+}
+.section5-part2 .card-body:hover{
+    transform: scale(0.9,0.9);
+}
+/* End Section 5 */
+/* Section 6 */
+.quoteBoxedText::before{
+    content: open-quote;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    font-size: 66px;
+    line-height: 20px;
+    color: #E75B4A;
+}
+.section6 .card-body{
+    transition: all 1s;
+}
+.section6 .card-body:hover{
+    transform: scale(0.9,0.9);
+}
+/* End Section 6 */
+/* Footer */
+footer{
+background-color: #E75B4A ;
+padding: 50px;
+color: #fff;
+}
+
+.footerNav{
+    padding: 0;
+    margin: 0;
+   
+}
+.footer-contacts{
+    padding: 10px;
+}
+
+.footer-contacts p{
+    margin-bottom: 0;
+    padding: 0;
+}
+.footer-contacts a{
+    cursor: pointer;
+}
+.footer-contacts a:hover{
+    color: #aaaaaa !important;
+}
+footer li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    padding: 10px;
+}
+footer li a{
+    color: #fff;
+    padding:20px;
+    text-decoration: none;
+
+}
+footer li a:hover {
+    color: #aaaaaa;
+}
+/* End Footer */
+.btn-up{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    border-radius: 50%;
+    color: #FFF;
+    background: #E75B4A;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
